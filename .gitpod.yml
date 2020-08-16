@@ -1,6 +1,6 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: chmod +x get_frontend.sh && ./get_frontend.sh && chmod +x setup_wagtail.sh && ./setup_wagtail.sh
+  - init: chmod +x get_frontend.sh && ./get_frontend.sh && chmod +x setup_django.sh && ./setup_django.sh
     command: ./manage.py runserver 0.0.0.0:8000
   - command: gp await-port 8000 && npm run gulp watch
