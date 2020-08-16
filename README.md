@@ -1,3 +1,3 @@
 # wagtail-codyhouse
 
-wagtail==2.9.3 for python3.5 compatability
+django for python3.5.9 compatability + codyhouse framework
